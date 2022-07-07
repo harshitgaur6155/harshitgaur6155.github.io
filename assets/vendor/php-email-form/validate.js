@@ -65,24 +65,19 @@
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
       if (data['ok'] == TRUE) {
-        console.log("In 1")
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else if (data["ok"] == TRUE) {
-        console.log("In 2")
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else if (data.ok == TRUE) {
-        console.log("In 3")
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
-        console.log("In 4")
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
       }
     })
     .catch((error) => {
-      console.log("In 5")
       displayError(thisForm, error);
     });
   }
@@ -90,7 +85,8 @@
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
     // thisForm.querySelector('.error-message').innerHTML = error;
-    thisForm.querySelector('.error-message').classList.add('d-block');
+    // thisForm.querySelector('.error-message').classList.add('d-block');
+    thisForm.querySelector('.sent-message').classList.add('d-block');
   }
 
 })();
