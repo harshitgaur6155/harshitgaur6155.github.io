@@ -1007,7 +1007,7 @@ section {
     margin-top: 20px;
   }
 }
-#contact .php-email-form .validate {
+/* #contact .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1021,10 +1021,12 @@ section {
   text-align: left;
   padding: 15px;
   font-weight: 600;
-}
-#contact .php-email-form .error-message br + br {
+} */
+
+/* #contact .php-email-form .error-message br + br {
   margin-top: 25px;
-}
+} */
+
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
