@@ -37,8 +37,6 @@
                 php_email_form_submit(thisForm, action, formData);
               })
             } catch(error) {
-              console.log("IN Catch")
-              console.log(error)
               displayError(thisForm, error)
             }
           });
@@ -75,6 +73,8 @@
       }
     })
     .catch((error) => {
+      console.log("HIIIIEHIEHIE")
+      console.log(error)
       displayError(thisForm, error);
     });
   }
