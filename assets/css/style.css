@@ -1204,7 +1204,8 @@ section {
 .property-card
 {
   height:18em;
-  width:14em;
+  /* width:14em; */
+  width:100%;
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
@@ -1228,7 +1229,8 @@ section {
 .property-image
 {
   height:6em;
-  width:14em;
+  /* width:14em; */
+  width:100%;
   padding:1em 2em;
   position:Absolute;
   top:0px;
@@ -1247,7 +1249,8 @@ section {
 {
   background-color: #FAFAFC;
   height:12em;
-  width:14em;
+  /* width:14em; */
+  width:100%;
   position:absolute;
   bottom:0em;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1331,3 +1334,14 @@ opacity:1;
 }
 
 */
+
+
+.row1 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
