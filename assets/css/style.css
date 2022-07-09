@@ -520,6 +520,16 @@ h2, h3, h4 {
   }
 }
 
+/* Desktop and Browser */
+@media only screen {
+  #hero {
+    height: 50vh;
+  }
+  #hero .hero-slider {
+    height: 60vh;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -1229,7 +1239,7 @@ section {
 # Resume
 --------------------------------------------------------------*/
 #resume {
-  padding: 40px 0;
+  padding: 40px 0 10px 0;
   overflow: hidden;
   bottom: 0;
   top: 0;
