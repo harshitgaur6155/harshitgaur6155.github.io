@@ -372,11 +372,12 @@ h2, h3, h4 {
   color: #50d8af;
   text-decoration: underline;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   #hero .hero-content h2 {
     font-size: 34px;
   }
-}
+} */
+
 #hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
@@ -426,6 +427,97 @@ h2, h3, h4 {
   background-position: center;
   background-repeat: no-repeat;
   transition-property: opacity;
+}
+
+@media (max-width:350px) {
+  #hero {
+    height: 105vh;
+  }
+  #hero .hero-slider {
+    height: 115vh;
+  }
+  /* #hero .hero-content h2 {
+    font-size: 34px;
+  } */
+}
+
+/* iPhones, Pixel (Portrait) */
+@media (min-width:351px) and (max-width: 481px) and (orientation: portrait) {
+  #hero {
+    height: 75vh;
+  }
+  #hero .hero-slider {
+    height: 95vh;
+  }
+  /* #hero .hero-content h2 {
+    font-size: 34px;
+  } */
+}
+
+/* Phones (Landscape) */
+@media (min-width: 351px) and (max-width: 767px) and (max-height:415px) and (orientation: landscape) {
+  #hero {
+    height: 130vh;
+  }
+  #hero .hero-slider {
+    height: 140vh;
+  }
+}
+
+/* iPhones, Pixel (Landscape) */
+@media (min-width: 351px) and (max-width: 767px) and (min-height:416px) and (max-height:480px) and (orientation: landscape) {
+  #hero {
+    height: 105vh;
+  }
+  #hero .hero-slider {
+    height: 115vh;
+  }
+}
+
+/* iPhones, Pixel (Landscape) - 2 */
+@media (min-width: 768px) and (max-width: 900px) and (max-height:1000px) and (orientation: landscape) {
+  #hero {
+    height: 105vh;
+  }
+  #hero .hero-slider {
+    height: 115vh;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 778px) and (max-height:1050px) and (orientation: portrait) {
+  #hero {
+    height: 60vh;
+  }
+  #hero .hero-slider {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 779px) and (max-width: 900px) and (max-height:1000px) and (orientation: portrait) {
+  #hero {
+    height: 56vh;
+  }
+  #hero .hero-slider {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 779px) and (max-width: 900px) and (min-height:1001px) and (max-height:1300px) and (orientation: portrait) {
+  #hero {
+    height: 40vh;
+  }
+  #hero .hero-slider {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) and (orientation: portrait) {
+  #hero {
+    height: 32vh;
+  }
+  #hero .hero-slider {
+    height: 50vh;
+  }
 }
 
 /*--------------------------------------------------------------
