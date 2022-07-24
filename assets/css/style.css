@@ -1384,10 +1384,40 @@ section {
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png');
+  /* background-image:url('https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png'); */
   /* background-image:url('https://www.publichealthnotes.com/wp-content/uploads/2020/03/project-planning-header@2x.png'); */
   background-size:cover;
   background-repeat:no-repeat;
+}
+
+.property-image-election-project
+{
+  background-image:url('../img/Projects/election-vote.jpeg');
+}
+
+.property-image-nyc-tree-census
+{
+  background-image:url('https://www.nycgovparks.org/pagefiles/109/trees-count-2015-header__58330136e3283.jpg');
+}
+
+.property-image-hotel-industry
+{
+  background-image:url('../img/Projects/Airbnb-Logo.png');
+}
+
+.property-image-healthcare-industry
+{
+  background-image:url('../img/Projects/healthcare.png');
+}
+
+.property-image-nlp-industry
+{
+  background-image:url('../img/Projects/nlp.jpeg');
+}
+
+.property-image-idp-industry
+{
+  background-image:url('../img/Projects/idp.jpeg');
 }
 
 /* Bottom Card Section */
