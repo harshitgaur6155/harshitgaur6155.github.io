@@ -1,0 +1,10 @@
+
+$(function () { 
+    // $('[data-toggle="tooltip"]').tooltip({trigger: 'manual', boundary: 'window'}).tooltip('show');
+});  
+
+
+$(".progress-bar").each(function() {
+    each_bar_width = $(this).attr('aria-valuenow');
+    $(this).width(each_bar_width + '%');      
+});

@@ -1283,7 +1283,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Github
 --------------------------------------------------------------*/
 #github {
   padding: 10px 0 10px 0;
@@ -1604,4 +1604,48 @@ opacity:1;
   flex-direction: column;
   text-align: left;
   flex-wrap: wrap;
+}
+
+
+
+/*--------------------------------------------------------------
+# Skills Progress Bar
+--------------------------------------------------------------*/
+#skills {
+  padding: 10px 0;
+}
+
+#skills .barWrapper {
+  margin: 10px 0px;
+}
+
+/* #skills .tooltip{  */
+/* .tooltip{ 
+  position:relative;
+  float:right;
+} */
+/* #skills .barWrapper .progress-bar .tooltip > .tooltip-inner { */
+/* .tooltip > .tooltip-inner {
+  background-color: #eebf3f; 
+  padding:5px 15px; 
+  color:rgb(23,44,66); 
+  font-weight:bold; 
+  font-size:13px;
+}
+
+/* #skills .barWrapper .progress-bar .popOver + #skills .barWrapper .progress-bar .tooltip > #skills .barWrapper .progress-bar .tooltip-arrow { */
+ /* .popOver + .tooltip > .tooltip-arrow {
+  border-left: 5px solid transparent; 
+  border-right: 5px solid transparent; 
+  border-top: 5px solid #eebf3f;
+} */ */
+
+#skills .barWrapper .progress{
+  border-radius:0;
+  overflow:visible;
+}
+#skills .barWrapper .progress-bar{
+  background:rgb(23,44,60); 
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
 }
