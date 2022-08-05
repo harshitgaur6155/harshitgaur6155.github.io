@@ -1390,9 +1390,14 @@ section {
   background-repeat:no-repeat;
 }
 
-.property-image-election-project
+.no-webp .property-image-election-project
 {
   background-image:url('../img/Projects/election-vote.jpeg');
+}
+
+.webp .property-image-election-project
+{
+  background-image:url('../img/webp-images/Projects/election-vote.webp');
 }
 
 .property-image-nyc-tree-census
@@ -1400,22 +1405,42 @@ section {
   background-image:url('https://www.nycgovparks.org/pagefiles/109/trees-count-2015-header__58330136e3283.jpg');
 }
 
-.property-image-hotel-industry
+.webp .property-image-hotel-industry
+{
+  background-image:url('../img/webp-images/Projects/Airbnb-Logo.webp');
+}
+
+.no-webp .property-image-hotel-industry
 {
   background-image:url('../img/Projects/Airbnb-Logo.png');
 }
 
-.property-image-healthcare-industry
+.webp .property-image-healthcare-industry
+{
+  background-image:url('../img/webp-images/Projects/healthcare.webp');
+}
+
+.no-webp .property-image-healthcare-industry
 {
   background-image:url('../img/Projects/healthcare.png');
 }
 
-.property-image-nlp-industry
+.webp .property-image-nlp-industry
+{
+  background-image:url('../img/webp-images/Projects/nlp.webp');
+}
+
+.no-webp .property-image-nlp-industry
 {
   background-image:url('../img/Projects/nlp.jpeg');
 }
 
-.property-image-idp-industry
+.webp .property-image-idp-industry
+{
+  background-image:url('../img/webp-images/Projects/idp.webp');
+}
+
+.no-webp .property-image-idp-industry
 {
   background-image:url('../img/Projects/idp.jpeg');
 }
