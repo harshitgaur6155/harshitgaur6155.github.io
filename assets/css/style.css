@@ -1390,6 +1390,16 @@ section {
   background-repeat:no-repeat;
 }
 
+.no-webp .property-image-HnM-project
+{
+  background-image:url('../img/Projects/H&M-Logo.jpeg');
+}
+
+.webp .property-image-HnM-project
+{
+  background-image:url('../img/webp-images/Projects/H&M-Logo.webp');
+}
+
 .no-webp .property-image-election-project
 {
   background-image:url('../img/Projects/election-vote.jpeg');
